@@ -173,9 +173,9 @@ input {
   @extend .error;
  }
 
- /* Users index */
+/* Users index */
 
- .users {
+.users {
   list-style: none;
   margin: 0;
   li {
@@ -187,3 +187,31 @@ input {
     }
   }
  }
+
+/* microposts */
+
+.microposts {
+  list-style: none;
+  margin: 10px 0 0 0;
+
+  li {
+    padding: 10px 0;
+    border-top: 1px solid #e8e8e8;
+  }
+}
+.content {
+  display: block;
+}
+.timestamp {
+  color: $grayLight;
+}
+.gravatar {
+  float: left;
+  margin-right: 10px;
+}
+aside {
+  textarea {
+    height: 100px;
+    margin-bottom: 5px;
+  }
+}
